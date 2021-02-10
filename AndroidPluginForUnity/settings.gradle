@@ -1,0 +1,4 @@
+include ':mylibrary'
+include ':UnityLibraryTest'
+include ':app'
+rootProject.name = "AndroidPluginForUnity"
