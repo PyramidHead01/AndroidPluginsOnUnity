@@ -26,6 +26,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    afterEvaluate{
+        assembleDebug.finalizedBy(exportJar)
+    }
+
 }
 
 dependencies {
@@ -39,11 +44,11 @@ dependencies {
 
 task exportJar(type: Copy){
     from('build/intermediates/aar_main_jar/debug/classes.jar')
-    into('../../../UnityWithAndroidPlugins/Assets/Plugins/Android')
+    into('../../../AndroidPluginsOnUnity/UnityWithAndroidPlugins/Assets/Plugins/Android')
     rename('classes.jar', 'PruebaPlugin.jar')
 }
 
 task deleteOldJar(type: Delete){
-    delete '../../../UnityWithAndroidPlugins/Assets/Plugins/Android/PruebaPlugin.jar'
+    delete '../../../AndroidPluginsOnUnity/UnityWithAndroidPlugins/Assets/Plugins/Android/PruebaPlugin.jar'
 }
-exportJar.dependsON(deleteOldJar)
+exportJar.dependsOn(deleteOldJar)

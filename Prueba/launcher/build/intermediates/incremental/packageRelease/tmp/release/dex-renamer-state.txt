@@ -1,0 +1,4 @@
+#Wed Feb 10 14:01:26 CET 2021
+base.0=C\:\\msys64\\home\\the_l\\AndroidPluginsOnUnity\\Prueba\\launcher\\build\\intermediates\\dex\\release\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
