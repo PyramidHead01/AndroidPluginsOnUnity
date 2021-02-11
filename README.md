@@ -56,25 +56,3 @@ Codigo que estaria guay tener a mano:
   NOTA:
     Durante el proceso hubo dos fallos grandes, el primero es que habia una clase que me duplicaba las clases, pero con facil solucion buscandola y borrandola
     Otro fallo fue que usaba en algun punto un metodo deprecated llamado android.enableR8, lo solucione añadiendo en el glade de la libreria (no confundir con el glade normal) android.enableD8=true, aunque se podria haber arreglado con android.enableR8=false si no me equivoco
-    Ahora, haciendo otro plugin me dio este fallo 
-    
-      Plugin   was not found in any of the following sources:
-      
-     Para solucionarlo, fui a settings.gladdle, y estaba asi
-     
-      include ':app'
-      include ':unityLibrary'
-      project(':unityLibrary').projectDir=new File('..\\UnityProject\\androidBuild\\unityLibrary')
-      include ':UnityPluginPost'
-     
-     Y fue suficiente con hacer esto
-     
-      include ':app'
-      include ':unityLibrary'
-      project(':unityLibrary').projectDir=new File('..\\UnityProject\\androidBuild\\unityLibrary')
-      include ':UnityPluginPost'
-      project(':UnityPluginPost').projectDir=new File('..\\UnityProject\\androidBuild\\UnityPluginPost')
-     
-      
-     
-    
