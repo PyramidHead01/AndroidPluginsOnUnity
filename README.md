@@ -6,7 +6,9 @@ Para que sirve?
   Si quieres alguna interaccion entre unity y android, como por ejemplo que active una actividad de android cuando pulsamos un boton en unity necesitas usar un plugin de android
   
  Que recomiendo para entender bien como hacerlo? 
+ 
   https://www.youtube.com/watch?v=EElBAGkjPt4&ab_channel=RyanZehm
+  
   Es bastante largo pero a mi me funciono este
  
 Codigo que estaria guay tener a mano:
@@ -17,7 +19,7 @@ Codigo que estaria guay tener a mano:
         assembleDebug.finalizedBy(exportJar)
     }
   
-  Debajo de dependences
+  Debajo de dependences (las partes donde hay una ruta son distintas en cada PC)
 
     task exportJar(type: Copy){
         from('build/intermediates/aar_main_jar/debug/classes.jar')
