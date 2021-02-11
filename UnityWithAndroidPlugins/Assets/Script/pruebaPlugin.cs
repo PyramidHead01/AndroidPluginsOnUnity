@@ -7,12 +7,17 @@ public class pruebaPlugin : MonoBehaviour
 
     private AndroidJavaObject androidJO;
 
+    public string nombre, contrasena;
+    public int puntuacion;
+    public bool nuevoUsuario;
+
+
     // Start is called before the first frame update
     void Start()
     {
         androidJO = new AndroidJavaObject("com.example.unitylibrarytest.UnityGetData");
 
-        androidJO.Call("GetVariable", "Juan", "Pae", 43);
+        androidJO.Call("PluginPost", nombre, contrasena, puntuacion, nuevoUsuario);
     }
 
 }

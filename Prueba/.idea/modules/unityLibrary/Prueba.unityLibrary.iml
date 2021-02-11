@@ -41,7 +41,6 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: ./unityLibrary/libs/classes.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./unityLibrary/libs/PruebaPlugin.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./unityLibrary/libs/unity-classes.jar" level="project" />
   </component>

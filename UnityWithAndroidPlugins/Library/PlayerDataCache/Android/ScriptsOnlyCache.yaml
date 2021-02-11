@@ -38,7 +38,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16260}
+      Script: {instanceID: 1580}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -70,6 +70,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 84fa651bc679500b53cc3d15d858b51d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: pruebaPlugin
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -556,12 +562,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: pruebaPlugin
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

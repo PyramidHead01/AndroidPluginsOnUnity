@@ -162,6 +162,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99f70c8ee098d5243afe3aea60b51703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nombre: Mateo
+  contrasena: BuenosDias
+  puntuacion: 127
+  nuevoUsuario: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0

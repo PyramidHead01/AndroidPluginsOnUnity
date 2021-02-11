@@ -29,7 +29,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[69MVORGMIZAQFYHE]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3a_API_30_x86]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PruebaPostDto/TormentorXUbermosh/NativeAndroidApp" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -138,24 +138,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1637" height="271" key="GridCell.Tab.0.bottom" timestamp="1612966577981">
+    <state x="620" y="260" key="FileChooserDialogImpl" timestamp="1612976408900">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612966577981" />
-    <state width="1637" height="271" key="GridCell.Tab.0.center" timestamp="1612966577981">
+    <state x="620" y="260" key="FileChooserDialogImpl/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612976408900" />
+    <state width="1619" height="226" key="GridCell.Tab.0.bottom" timestamp="1612976361123">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.center/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612966577981" />
-    <state width="1637" height="271" key="GridCell.Tab.0.left" timestamp="1612966577981">
+    <state width="1619" height="226" key="GridCell.Tab.0.bottom/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612976361123" />
+    <state width="1619" height="226" key="GridCell.Tab.0.center" timestamp="1612976361122">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.left/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612966577981" />
-    <state width="1637" height="271" key="GridCell.Tab.0.right" timestamp="1612966577981">
+    <state width="1619" height="226" key="GridCell.Tab.0.center/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612976361122" />
+    <state width="1619" height="226" key="GridCell.Tab.0.left" timestamp="1612976361122">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.right/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612966577981" />
+    <state width="1619" height="226" key="GridCell.Tab.0.left/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612976361122" />
+    <state width="1619" height="226" key="GridCell.Tab.0.right" timestamp="1612976361123">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1619" height="226" key="GridCell.Tab.0.right/0.0.1680.1010/1680.130.1280.984@0.0.1680.1010" timestamp="1612976361123" />
     <state x="424" y="188" width="672" height="678" key="search.everywhere.popup" timestamp="1612965573753">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
